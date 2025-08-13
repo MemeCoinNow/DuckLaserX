@@ -5,30 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>DuckLaser X (DLX) – Official</title>
 
-  <meta name="description" content="DuckLaser X (DLX) – cyberpunk meme coin with bold branding, transparent tokenomics, and utility like staking & on‑chain meme tools. Ride the neon bike to the moon." />
+  <!-- Meta -->
+  <meta name="description" content="DuckLaser X (DLX) — a high-octane Solana meme coin with clean tokenomics, bold art, and a no‑nonsense vibe. Buy, sell, meme — quack to the moon." />
+  <meta name="theme-color" content="#0b0e13" />
+
+  <!-- Open Graph -->
   <meta property="og:title" content="DuckLaser X (DLX) – Official" />
-  <meta property="og:description" content="A laser‑eyed space duck powering a community‑first meme coin. Fair launch, bold art, real utilities." />
+  <meta property="og:description" content="Laser-eyed duck. Neon bike. Pure meme power on Solana. Simple tokenomics — no staking, no minting." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="dlx_og.jpg" />
-  <meta name="theme-color" content="#0b0e13" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="DuckLaser X" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DuckLaser X (DLX) – Official" />
+  <meta name="twitter:description" content="Pure meme energy on Solana. Simple tokenomics — no staking, no minting." />
+  <meta name="twitter:site" content="@DuckLaserX" />
+  <meta name="twitter:image" content="dlx_og.jpg" />
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;600;700&display=swap" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
   <style>
     :root{
       --bg:#0b0e13;          /* deep space */
       --panel:#11151b;       /* card background */
-      --text:#e8eaee;        /* off‑white */
+      --text:#e8eaee;        /* off-white */
       --muted:#a3adbf;       /* desaturated slate */
       --gold:#f3b743;        /* brand gold */
       --gold-strong:#f0a915; /* hover gold */
       --neon-cyan:#37e1ff;   /* laser accent */
       --neon-pink:#ff4fd8;   /* laser accent */
-      --success:#32d296;
-      --danger:#ff6060;
       --radius:18px;
       --shadow:0 10px 30px rgba(0,0,0,.45);
     }
@@ -66,7 +83,6 @@
     .grid{display:grid; gap:18px}
     .grid.cols-3{grid-template-columns:repeat(3,1fr)}
     .kpi{display:flex; flex-direction:column; gap:6px; background:linear-gradient(180deg, rgba(243,183,67,.08), transparent 60%); padding:18px; border-radius:14px}
-    .kpi h4{margin:0; font-family:Orbitron; letter-spacing:.02em}
 
     table{width:100%; border-collapse:collapse; font-size:.98rem}
     th,td{padding:12px 10px; border-bottom:1px solid #21293a}
@@ -87,17 +103,17 @@
   </style>
 </head>
 <body>
-
   <header>
     <div class="container row">
       <div class="brand">
-        <img src="dlx_avatar.png" alt="DLX emblem" />
+        <!-- circular DLX emblem (no text) -->
+        <img src="dlx_avatar.png" alt="DuckLaser X emblem" />
         <div class="name">DuckLaser X <span style="color:var(--gold)">DLX</span></div>
       </div>
       <div class="badges">
         <a class="badge" href="#buy">Buy on DEX</a>
         <span class="badge">Ticker: DLX</span>
-        <span class="badge">Chain: TBD</span>
+        <span class="badge">Chain: Solana (SOL)</span>
       </div>
     </div>
   </header>
@@ -106,9 +122,9 @@
     <section class="hero">
       <div class="container wrap">
         <div>
-          <div class="tag">⚡ Meme • 🛠 Utility • 👥 Community</div>
+          <div class="tag">⚡ Meme • 🚀 Momentum • 👥 Community</div>
           <h1 class="title">Meet <span>DuckLaser X</span> — the laser‑eyed space biker duck turning memes into momentum.</h1>
-          <p class="subtitle">A bold brand, transparent tokenomics, and on‑chain tools for creators and degens. Fair launch, LP locked, and a roadmap that actually ships.</p>
+          <p class="subtitle">Built on Solana with clean tokenomics. No gimmicks — just crisp branding, transparent supply, and pure meme energy.</p>
           <div class="hero-cta">
             <a class="btn primary" href="#buy">Buy DLX</a>
             <a class="btn ghost" href="#tokenomics">View Tokenomics</a>
@@ -116,8 +132,8 @@
           </div>
           <div class="kpi" style="margin-top:18px">
             <div style="display:flex; gap:22px; flex-wrap:wrap">
-              <div><strong>CA:</strong> <code>0xYOUR_TOKEN_ADDRESS</code></div>
-              <div><strong>LP:</strong> Locked</div>
+              <div><strong>CA:</strong> <code>SOLANA_TOKEN_ADDRESS</code></div>
+              <div><strong>LP:</strong> Burned</div>
               <div><strong>Launch:</strong> Fair</div>
             </div>
           </div>
@@ -133,9 +149,12 @@
           <table>
             <tbody>
               <tr><th>Ticker</th><td>DLX</td></tr>
+              <tr><th>Chain</th><td>Solana (SOL)</td></tr>
               <tr><th>Total Supply</th><td>1,000,000,000 DLX</td></tr>
-              <tr><th>Taxes</th><td>0% buy / 0% sell (initial)</td></tr>
-              <tr><th>Liquidity</th><td>Initial LP locked</td></tr>
+              <tr><th>Distribution</th><td>850,000,000 for sale (public) • 150,000,000 creator wallet</td></tr>
+              <tr><th>Launchpad</th><td>Issued via Oriontools.io</td></tr>
+              <tr><th>Taxes</th><td>0.25% buy / 0.25% sell (initial)</td></tr>
+              <tr><th>Liquidity</th><td>Initial LP burned</td></tr>
               <tr><th>Contract</th><td>Ownership renounced where feasible</td></tr>
             </tbody>
           </table>
@@ -143,10 +162,10 @@
         <div class="card">
           <h2 style="font-family:Orbitron">Utilities</h2>
           <ul>
-            <li><strong>Laser Boost</strong> – single‑sided staking for holders.</li>
-            <li><strong>On‑chain Meme Forge</strong> – mint memes, tip creators, share revenue.</li>
-            <li><strong>Merch + XP</strong> – earn on-chain XP, unlock discounts and drops.</li>
-            <li><strong>Open Quests</strong> – weekly missions that grow the brand.</li>
+            <li><strong>Pure Meme Engine</strong> — No staking. No minting. Just iconic art and rally‑cry slogans: <em>“Ride the neon bike.” “Quack. Zap. Moon.”</em></li>
+            <li><strong>Simple & Transparent</strong> — Fixed supply on Oriontools, clear distribution, tiny taxes, LP burned.</li>
+            <li><strong>Community Firepower</strong> — Twitter/X raids, Telegram coordination, and open‑source branding assets to make your own memes.</li>
+            <li><strong>Future‑ready</strong> — Keep it simple now; explore integrations only if the community votes for it.</li>
           </ul>
         </div>
         <div class="card">
@@ -164,14 +183,14 @@
       <div class="container card">
         <h2 style="font-family:Orbitron">How to Buy DLX</h2>
         <ol>
-          <li>Connect a Web3 wallet (e.g., Phantom/MetaMask) to your chosen DEX.</li>
-          <li>Paste the contract address: <code>0xYOUR_TOKEN_ADDRESS</code>.</li>
-          <li>Select your slippage (start at 0.5–1.0%).</li>
-          <li>Swap and join the ride. Welcome to the laser squad.</li>
+          <li>Install/Use a Solana wallet (e.g., Phantom).</li>
+          <li>Open your DEX/launch page (Oriontools/Raydium) and paste: <code>SOLANA_TOKEN_ADDRESS</code>.</li>
+          <li>Choose slippage (start at 0.5–1.0%).</li>
+          <li>Swap and join the ride — quack, zap, moon.</li>
         </ol>
         <div class="hero-cta">
-          <a class="btn primary" href="#">Open DEX Link</a>
-          <a class="btn ghost" href="#">View Chart</a>
+          <a class="btn primary" href="javascript:void(0)">Open DEX Link</a>
+          <a class="btn ghost" href="javascript:void(0)">View Chart</a>
         </div>
       </div>
     </section>
@@ -183,25 +202,25 @@
           <div>
             <h3>Phase I — Launch & Foundation</h3>
             <ol>
-              <li>Fair launch, LP lock, socials live</li>
+              <li>Fair launch on Oriontools • LP burn • socials live</li>
               <li>Website v1 with art + docs</li>
-              <li>DEX listings & community quests</li>
+              <li>DEX listings & community memes</li>
             </ol>
           </div>
           <div>
-            <h3>Phase II — Utility & Growth</h3>
+            <h3>Phase II — Community & Reach</h3>
             <ol>
-              <li>Laser Boost staking deployment</li>
-              <li>Meme Forge (on‑chain meme tools)</li>
-              <li>Creator grants, collabs, merch XP</li>
+              <li>Brand asset pack & meme competitions</li>
+              <li>Partnerships/collabs with creators</li>
+              <li>Listings and marketing pushes</li>
             </ol>
           </div>
           <div>
-            <h3>Phase III — Scale & Presence</h3>
+            <h3>Phase III — Scale & Governance</h3>
             <ol>
-              <li>Broader CEX listings</li>
-              <li>DAO‑style proposals & voting</li>
-              <li>Global campaigns: Quack to the Moon</li>
+              <li>Broader listings and campaigns</li>
+              <li>Optional proposals voted by holders</li>
+              <li>Global raids: <em>Quack to the Moon</em></li>
             </ol>
           </div>
         </div>
@@ -212,19 +231,19 @@
       <div class="container grid cols-3">
         <div class="card">
           <h2 style="font-family:Orbitron">Brand Voice</h2>
-          <p>Playful but focused. Community‑first. Memes with craftsmanship. No empty shilling—ship features, celebrate holders, credit creators.</p>
+          <p>Playful but precise. Meme‑first, community‑driven, zero fluff. Build the legend: a golden‑helmed duck ripping neon trails through the stars.</p>
         </div>
         <div class="card">
           <h2 style="font-family:Orbitron">Visual Identity</h2>
           <ul>
-            <li>Palette: <span style="color:var(--gold)">Gold</span>, Black Deep Space, Off‑white, Neon Cyan & Pink lasers.</li>
+            <li>Palette: <span style="color:var(--gold)">Gold</span>, deep space black, off‑white, neon cyan & pink lasers.</li>
             <li>Fonts: Orbitron (headings), Inter (body).</li>
             <li>Use the circular DLX emblem for icons, CMC, and wallets.</li>
           </ul>
         </div>
         <div class="card">
           <h2 style="font-family:Orbitron">Disclaimers</h2>
-          <p>DLX is a meme token with experimental utilities. Nothing here is financial advice. Crypto is volatile—do your own research. Never trade what you cannot afford to lose.</p>
+          <p>DLX is a meme token. Nothing here is financial advice. Crypto is volatile — do your own research. Never trade what you cannot afford to lose.</p>
         </div>
       </div>
     </section>
@@ -235,10 +254,10 @@
       <div style="display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify-content:space-between">
         <div>© <span id="y"></span> DuckLaser X • Ticker: DLX</div>
         <div class="badges">
-          <a class="badge" href="#">Twitter/X</a>
-          <a class="badge" href="#">Telegram</a>
-          <a class="badge" href="#">Discord</a>
-          <a class="badge" href="#">GitHub</a>
+          <a class="badge" href="https://twitter.com/DuckLaserX" target="_blank" rel="noopener">Twitter/X</a>
+          <a class="badge" href="https://t.me/ducklaserx" target="_blank" rel="noopener">Telegram</a>
+          <a class="badge" href="javascript:void(0)">Discord</a>
+          <a class="badge" href="javascript:void(0)">GitHub</a>
         </div>
       </div>
     </div>
