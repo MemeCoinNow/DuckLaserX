@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>DuckLaser X (DLX) – Official</title>
 
-  <meta name="description" content="DuckLaser X (DLX) – cyberpunk meme coin with bold branding, transparent tokenomics, and utility like staking & on-chain meme tools. Ride the neon bike to the moon." />
+  <meta name="description" content="DuckLaser X (DLX) – cyberpunk meme coin with bold branding, transparent tokenomics, and utility like staking & on‑chain meme tools. Ride the neon bike to the moon." />
   <meta property="og:title" content="DuckLaser X (DLX) – Official" />
-  <meta property="og:description" content="A laser-eyed space duck powering a community-first meme coin. Fair launch, bold art, real utilities." />
+  <meta property="og:description" content="A laser‑eyed space duck powering a community‑first meme coin. Fair launch, bold art, real utilities." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/DLX_og.jpg" />
+  <meta property="og:image" content="dlx_og.jpg" />
   <meta name="theme-color" content="#0b0e13" />
 
   <!-- Fonts -->
@@ -18,19 +18,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
   <style>
-  
-  
-  
-  /* Original CSS content from provided code */
-  :root{
-      --bg:#0b0e13;
-      --panel:#11151b;
-      --text:#e8eaee;
-      --muted:#a3adbf;
-      --gold:#f3b743;
-      --gold-strong:#f0a915;
-      --neon-cyan:#37e1ff;
-      --neon-pink:#ff4fd8;
+    :root{
+      --bg:#0b0e13;          /* deep space */
+      --panel:#11151b;       /* card background */
+      --text:#e8eaee;        /* off‑white */
+      --muted:#a3adbf;       /* desaturated slate */
+      --gold:#f3b743;        /* brand gold */
+      --gold-strong:#f0a915; /* hover gold */
+      --neon-cyan:#37e1ff;   /* laser accent */
+      --neon-pink:#ff4fd8;   /* laser accent */
       --success:#32d296;
       --danger:#ff6060;
       --radius:18px;
@@ -53,6 +49,8 @@
     .brand{display:flex; align-items:center; gap:12px}
     .brand img{width:42px; height:42px; border-radius:50%; box-shadow:0 4px 16px rgba(243,183,67,.45)}
     .brand .name{font-family:Orbitron,Inter,sans-serif; font-weight:800; letter-spacing:.02em}
+
+    /* Hero */
     .hero{padding:72px 0 32px}
     .hero .wrap{display:grid; grid-template-columns:1.1fr .9fr; gap:28px; align-items:center}
     .tag{display:inline-flex; gap:.5rem; align-items:center; padding:6px 12px; border-radius:999px; border:1px solid #2a3140; color:var(--muted); font-size:.85rem}
@@ -60,21 +58,28 @@
     .title span{background:linear-gradient(90deg,var(--gold) 0%, #ffe28a 60%, var(--gold) 100%); -webkit-background-clip:text; background-clip:text; color:transparent}
     .subtitle{color:var(--muted); font-size:1.05rem}
     .hero-cta{display:flex; gap:14px; flex-wrap:wrap; margin-top:20px}
-    .hero .art{background:#0d121a url('assets/DLX_hero.jpg') center/cover no-repeat; min-height:320px; border-radius:var(--radius); box-shadow:var(--shadow); border:1px solid #1b2230}
+    .hero .art{background:#0d121a url('dlx_hero.jpg') center/cover no-repeat; min-height:320px; border-radius:var(--radius); box-shadow:var(--shadow); border:1px solid #1b2230}
+
+    /* Sections */
     section{padding:46px 0}
     .card{background:var(--panel); border:1px solid #1c2230; border-radius:var(--radius); box-shadow:var(--shadow); padding:22px}
     .grid{display:grid; gap:18px}
     .grid.cols-3{grid-template-columns:repeat(3,1fr)}
     .kpi{display:flex; flex-direction:column; gap:6px; background:linear-gradient(180deg, rgba(243,183,67,.08), transparent 60%); padding:18px; border-radius:14px}
     .kpi h4{margin:0; font-family:Orbitron; letter-spacing:.02em}
+
     table{width:100%; border-collapse:collapse; font-size:.98rem}
     th,td{padding:12px 10px; border-bottom:1px solid #21293a}
     th{text-align:left; color:#c8cfde; font-weight:700}
+
     .roadmap ol{margin:0; padding-left:20px}
     .roadmap li{margin:10px 0}
+
     footer{padding:32px 0 60px; border-top:1px solid #1c2230; color:#9aa6be}
     .badges{display:flex; gap:10px; flex-wrap:wrap}
     .badge{background:#0f141d; border:1px solid #263149; color:#b8c2d8; padding:6px 10px; border-radius:999px; font-size:.85rem}
+
+    /* Responsive */
     @media (max-width:960px){
       .hero .wrap{grid-template-columns:1fr}
       .grid.cols-3{grid-template-columns:1fr}
@@ -83,10 +88,164 @@
 </head>
 <body>
 
-<!-- Original HTML body content from provided code -->
+  <header>
+    <div class="container row">
+      <div class="brand">
+        <img src="dlx_avatar.png" alt="DLX emblem" />
+        <div class="name">DuckLaser X <span style="color:var(--gold)">DLX</span></div>
+      </div>
+      <div class="badges">
+        <a class="badge" href="#buy">Buy on DEX</a>
+        <span class="badge">Ticker: DLX</span>
+        <span class="badge">Chain: TBD</span>
+      </div>
+    </div>
+  </header>
 
-<script>
+  <main>
+    <section class="hero">
+      <div class="container wrap">
+        <div>
+          <div class="tag">⚡ Meme • 🛠 Utility • 👥 Community</div>
+          <h1 class="title">Meet <span>DuckLaser X</span> — the laser‑eyed space biker duck turning memes into momentum.</h1>
+          <p class="subtitle">A bold brand, transparent tokenomics, and on‑chain tools for creators and degens. Fair launch, LP locked, and a roadmap that actually ships.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#buy">Buy DLX</a>
+            <a class="btn ghost" href="#tokenomics">View Tokenomics</a>
+            <a class="btn ghost" href="#docs">Read Docs</a>
+          </div>
+          <div class="kpi" style="margin-top:18px">
+            <div style="display:flex; gap:22px; flex-wrap:wrap">
+              <div><strong>CA:</strong> <code>0xYOUR_TOKEN_ADDRESS</code></div>
+              <div><strong>LP:</strong> Locked</div>
+              <div><strong>Launch:</strong> Fair</div>
+            </div>
+          </div>
+        </div>
+        <div class="art" aria-label="DuckLaser X artwork"></div>
+      </div>
+    </section>
+
+    <section id="tokenomics">
+      <div class="container grid cols-3">
+        <div class="card">
+          <h2 style="font-family:Orbitron">Tokenomics</h2>
+          <table>
+            <tbody>
+              <tr><th>Ticker</th><td>DLX</td></tr>
+              <tr><th>Total Supply</th><td>1,000,000,000 DLX</td></tr>
+              <tr><th>Taxes</th><td>0% buy / 0% sell (initial)</td></tr>
+              <tr><th>Liquidity</th><td>Initial LP locked</td></tr>
+              <tr><th>Contract</th><td>Ownership renounced where feasible</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card">
+          <h2 style="font-family:Orbitron">Utilities</h2>
+          <ul>
+            <li><strong>Laser Boost</strong> – single‑sided staking for holders.</li>
+            <li><strong>On‑chain Meme Forge</strong> – mint memes, tip creators, share revenue.</li>
+            <li><strong>Merch + XP</strong> – earn on-chain XP, unlock discounts and drops.</li>
+            <li><strong>Open Quests</strong> – weekly missions that grow the brand.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2 style="font-family:Orbitron">Audits & Safety</h2>
+          <ul>
+            <li>Transparent wallets, published before launch.</li>
+            <li>Contract verified; third‑party review planned.</li>
+            <li>Clear comms; no unrealistic promises. DYOR.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="buy">
+      <div class="container card">
+        <h2 style="font-family:Orbitron">How to Buy DLX</h2>
+        <ol>
+          <li>Connect a Web3 wallet (e.g., Phantom/MetaMask) to your chosen DEX.</li>
+          <li>Paste the contract address: <code>0xYOUR_TOKEN_ADDRESS</code>.</li>
+          <li>Select your slippage (start at 0.5–1.0%).</li>
+          <li>Swap and join the ride. Welcome to the laser squad.</li>
+        </ol>
+        <div class="hero-cta">
+          <a class="btn primary" href="#">Open DEX Link</a>
+          <a class="btn ghost" href="#">View Chart</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="roadmap">
+      <div class="container card">
+        <h2 style="font-family:Orbitron">Roadmap</h2>
+        <div class="grid">
+          <div>
+            <h3>Phase I — Launch & Foundation</h3>
+            <ol>
+              <li>Fair launch, LP lock, socials live</li>
+              <li>Website v1 with art + docs</li>
+              <li>DEX listings & community quests</li>
+            </ol>
+          </div>
+          <div>
+            <h3>Phase II — Utility & Growth</h3>
+            <ol>
+              <li>Laser Boost staking deployment</li>
+              <li>Meme Forge (on‑chain meme tools)</li>
+              <li>Creator grants, collabs, merch XP</li>
+            </ol>
+          </div>
+          <div>
+            <h3>Phase III — Scale & Presence</h3>
+            <ol>
+              <li>Broader CEX listings</li>
+              <li>DAO‑style proposals & voting</li>
+              <li>Global campaigns: Quack to the Moon</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="docs">
+      <div class="container grid cols-3">
+        <div class="card">
+          <h2 style="font-family:Orbitron">Brand Voice</h2>
+          <p>Playful but focused. Community‑first. Memes with craftsmanship. No empty shilling—ship features, celebrate holders, credit creators.</p>
+        </div>
+        <div class="card">
+          <h2 style="font-family:Orbitron">Visual Identity</h2>
+          <ul>
+            <li>Palette: <span style="color:var(--gold)">Gold</span>, Black Deep Space, Off‑white, Neon Cyan & Pink lasers.</li>
+            <li>Fonts: Orbitron (headings), Inter (body).</li>
+            <li>Use the circular DLX emblem for icons, CMC, and wallets.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2 style="font-family:Orbitron">Disclaimers</h2>
+          <p>DLX is a meme token with experimental utilities. Nothing here is financial advice. Crypto is volatile—do your own research. Never trade what you cannot afford to lose.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify-content:space-between">
+        <div>© <span id="y"></span> DuckLaser X • Ticker: DLX</div>
+        <div class="badges">
+          <a class="badge" href="#">Twitter/X</a>
+          <a class="badge" href="#">Telegram</a>
+          <a class="badge" href="#">Discord</a>
+          <a class="badge" href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
     document.getElementById('y').textContent = new Date().getFullYear();
-</script>
+  </script>
 </body>
 </html>
