@@ -1,0 +1,13 @@
+{
+  "name": "DuckLaser X",
+  "symbol": "DLZR",
+  "description": "DuckLaser X (DLZR) \u2014 a high-octane Solana meme coin with clean tokenomics and bold art. Built for the community, powered by memes.",
+  "image": "https://ducklaserx.no/dlx_logo_round.png",
+  "extensions": {
+    "website": "https://ducklaserx.no",
+    "twitter": "https://twitter.com/DuckLaserX",
+    "telegram": "https://t.me/ducklaserx",
+    "discord": "https://discord.gg/YVp2AdrXBz",
+    "dexscreener": "https://dexscreener.com/solana/32VTpGGwNacedw3cREPaCZrdZiZ1KWoMb5GwphvwGGM9"
+  }
+}
